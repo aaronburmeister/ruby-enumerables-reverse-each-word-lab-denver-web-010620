@@ -1,7 +1,6 @@
 def reverse_each_word(string)
   word_array = string.split(" ")
   word_array.collect {|a| a.reverse}
-  word_array
 end
 
 example = "Hello, World!"
