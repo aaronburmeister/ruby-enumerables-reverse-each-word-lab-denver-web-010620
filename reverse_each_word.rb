@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   word_array = string.split(" ")
-  word_array.join.collect {|a| a.reverse}
+  word_array.join(" ").collect {|a| a.reverse}
 end
 
 example = "Hello, World!"
